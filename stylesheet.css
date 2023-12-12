@@ -1,5 +1,8 @@
 body {
   font-family: "Hiragino Sans";
+  display: flex;
+　　　　flex-direction: column;
+　　　　align-items: center;
 }
 
 h1{
