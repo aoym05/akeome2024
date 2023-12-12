@@ -1,8 +1,5 @@
 body {
   font-family: "Hiragino Sans";
-  display: flex;
-　　　　flex-direction: column;
-　　　　align-items: center;
 }
 
 h1{
@@ -17,21 +14,27 @@ h3{
   font-size: 20px;
 }
 
+
+/*レスポンシブ : https://seolaboratory.jp/89410/*/
+@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
 .manga{
   /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
   display: flex;
 　　　　flex-direction: column;
 　　　　align-items: center;
-}
-
-/*レスポンシブ : https://seolaboratory.jp/89410/*/
-@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/
+}  
 .syoukai{
   /* PCで横並びにしたい */
   justify-content: space-around;
 }
 }
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+.manga{
+  /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
+  display: flex;
+　　　　flex-direction: column;
+　　　　align-items: center;
+}
 .syoukai{
   /* スマホで縦並び&中央揃えにしたい */
   display: flex;
