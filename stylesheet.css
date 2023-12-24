@@ -18,12 +18,15 @@ h3{
 }
 
 section{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 div{
  display: flex;
 　　flex-direction: column;
-　　　align-items: center; 
+　　align-items: center; 
 }  
 
 /*レスポンシブ : https://seolaboratory.jp/89410/*/
@@ -58,32 +61,14 @@ div{
 }
 
 .top-manga-2{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
 .kimono{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
 .otoshidama-1{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
 .otoshidama-2{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
 .eto{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
 .omake{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
 }
