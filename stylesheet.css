@@ -1,70 +1,76 @@
 body {
   font-family: "Hiragino Sans";
-  width: 960px;
-  margin: auto;
 }
 
 h1{
   font-size: 28px;
-  color: #320084;
+  /*color: #320084;*/
 }
 
 h2{
   font-size: 28px;
-  color: #320084;
+  /*color: #320084;*/
 }
 
 h3{
   font-size: 20px;
-  color: #320084;
+  /*color: #320084;*/
 }
 
- .manga{
-  /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
-  display: flex;
-　　　　flex-direction: column;
-　　　　align-items: center;
- } 
-
 /*レスポンシブ : https://seolaboratory.jp/89410/*/
-@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/ 
- .syoukai{
+/*@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/ 
+ /*.syoukai{
   /* PCで横並びにしたい */
-  justify-content: space-around;
+  /*justify-content: space-around;
  }
 }
 @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
- .syoukai{
+ /*.syoukai{
   /* スマホで縦並び&中央揃えにしたい */
-  display: flex;
+  /*display: flex;
 　　　　flex-direction: column;
 　　　　align-items: center;
  }
+}*/
+
+.top-manga-1{
+  /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
+  display: flex;
+ } 
+
+.syokai{
 }
 
-.shyoukai-1{
+.syokai-1{
   /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
   display: flex;
 　　　　flex-direction: column;
 　　　　align-items: center;
 }
 
-.shyoukai-2{
+.syokai-2{
   /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
   display: flex;
 　　　　flex-direction: column;
 　　　　align-items: center;
 }
 
-.shyoukai-3{
+.syokai-3{
   /* ↓要素を縦並び&中央揃えにしたい : https://www.curict.com/item/fc/fc349d7.html */
   display: flex;
 　　　　flex-direction: column;
 　　　　align-items: center;
 }
 
-.nenga-illust{
+.top-manga-2{
 }
-
-.comment{
+.kimono{
+}
+.otoshidama-1{
+}
+.otoshidama-2{
+}
+.eto{
+}
+.omake{
 }
