@@ -23,11 +23,15 @@ section{
  flex-wrap: wrap;
 }
 
-div{
- display: flex;
-　　flex-direction: column;
-　　align-items: center; 
-}  
+img{
+ width: 100%;
+ height: auto;
+}
+
+img.kyara{
+ width: 60%
+ height: auto; 
+}
 
 /*レスポンシブ : https://seolaboratory.jp/89410/*/
 /*@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/ 
