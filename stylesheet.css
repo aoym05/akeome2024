@@ -11,7 +11,7 @@ h1{
 }
 
 h2{
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -19,7 +19,7 @@ h2{
 }
 
 h3{
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -70,15 +70,15 @@ img.kyara{
  width: 60%;
  height: auto;
  text-align: center;
- flex-wrap: wrap;
  flex-direction: column;
 }
 
 .syokai-2{
+ margin-bottom: 70px;
+ margin-top: 70px;
  width: 60%;
  height: auto;
  text-align: center;
- flex-wrap: wrap;
  flex-direction: column;
 }
 
@@ -86,7 +86,6 @@ img.kyara{
  width: 60%;
  height: auto;
  text-align: center;
- flex-wrap: wrap; 
  flex-direction: column;
 }
 
