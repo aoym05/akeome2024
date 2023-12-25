@@ -4,12 +4,14 @@ body {
 
 h1{
   font-size: 60px;
+  font-weight: 500;
   margin-bottom: 0px;
   /*color: #320084;*/
 }
 
 h2{
   font-size: 60px;
+  font-weight: 500;
   margin-top: 10px;
   margin-bottom: 0px;
   /*color: #320084;*/
@@ -17,6 +19,7 @@ h2{
 
 h3{
   font-size: 45px;
+  font-weight: 400;
   margin-top: 0px;
   margin-bottom: 0px;
   /*color: #320084;*/
@@ -67,6 +70,7 @@ img.kyara{
  height: auto;
  text-align: center;
  flex-wrap: wrap;
+ flex-direction: column;
 }
 
 .syokai-2{
@@ -74,6 +78,7 @@ img.kyara{
  height: auto;
  text-align: center;
  flex-wrap: wrap;
+ flex-direction: column;
 }
 
 .syokai-3{
@@ -81,10 +86,12 @@ img.kyara{
  height: auto;
  text-align: center;
  flex-wrap: wrap; 
+ flex-direction: column;
 }
 
 .top-manga-2{
 }
+
 .kimono{
   margin-top: 100px;
   margin-bottom: 100px;
