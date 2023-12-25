@@ -1,6 +1,5 @@
 body {
   font-family: "Hiragino Sans";
-  font-weight: 600;
 }
 
 h1{
@@ -12,7 +11,7 @@ h1{
 
 h2{
   font-size: 55px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 10px;
   margin-bottom: 0px;
   /*color: #320084;*/
@@ -20,7 +19,7 @@ h2{
 
 h3{
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
   /*color: #320084;*/
