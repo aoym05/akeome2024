@@ -29,7 +29,7 @@ section{
  display: flex;
  justify-content: center;
  flex-wrap: wrap;
- max-width: 800px;
+ /*max-width: 800px;*/
  margin-left: auto;
  margin-right: auto;
 }
@@ -52,15 +52,15 @@ img.kyara{
   /*justify-content: space-around;
  }
 }*/
-@media screen and (max-width: 600px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-.syoukai{
+/*@media screen and (max-width: 600px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+/*.syoukai{
   width: 100%;
   max-width: none; 
   /*display: flex;
 　　　　flex-direction: column;
-　　　　align-items: center;*/
+　　　　align-items: center;
  }
-}
+}*/
 
 .top-manga-1{
  } 
