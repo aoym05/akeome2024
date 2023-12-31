@@ -51,15 +51,16 @@ img.kyara{
   /* PCで横並びにしたい */
   /*justify-content: space-around;
  }
-}
-@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
- /*.syoukai{
-  /* スマホで縦並び&中央揃えにしたい */
+}*/
+@media screen and (max-width: 600px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+.syoukai{
+  width: 100%;
+  max-width: none; 
   /*display: flex;
 　　　　flex-direction: column;
-　　　　align-items: center;
+　　　　align-items: center;*/
  }
-}*/
+}
 
 .top-manga-1{
  } 
@@ -112,4 +113,5 @@ img.kyara{
   margin-bottom: 100px;
 }
 .omake{
+  margin-bottom: 200px;
 }
