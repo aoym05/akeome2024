@@ -40,10 +40,24 @@ img{
  height: auto;
 }
 
-img.kyara{
+img.kyara1{
  width: 70%;
  height: auto; 
+ margin: 0 auto;
 }
+
+img.kyara2{
+ width: 70%;
+ height: auto;
+ margin: 0 auto;
+}
+
+img.kyara2{
+ width: 70%;
+ height: auto;
+ margin: 0 auto;
+}
+
 
 
 /*レスポンシブ : https://seolaboratory.jp/89410/*/
