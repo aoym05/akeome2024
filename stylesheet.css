@@ -1,3 +1,9 @@
+
+body {
+  max-width: 50px;
+}
+
+/*
 body {
   font-family: "Hiragino Sans";
 }
@@ -6,7 +12,6 @@ h1{
   font-size: 60px;
   font-weight: 600;
   margin-bottom: 0px;
-  /*color: #320084;*/
 }
 
 h2{
@@ -14,7 +19,6 @@ h2{
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 0px;
-  /*color: #320084;*/
 }
 
 h3{
@@ -22,7 +26,6 @@ h3{
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 0px;
-  /*color: #320084;*/
 }
 
 section{
@@ -57,25 +60,6 @@ img{
  height: auto;
  margin: 0 auto;
 }
-
-
-
-/*レスポンシブ : https://seolaboratory.jp/89410/*/
-/*@media screen and (min-width: 767px) { /*ウィンドウ幅が767px以上の場合に適用*/ 
- /*.syoukai{
-  /* PCで横並びにしたい */
-  /*justify-content: space-around;
- }
-}*/
-/*@media screen and (max-width: 600px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
-/*.syoukai{
-  width: 100%;
-  max-width: none; 
-  /*display: flex;
-　　　　flex-direction: column;
-　　　　align-items: center;
- }
-}*/
 
 .top-manga-1{
  } 
@@ -134,3 +118,4 @@ img{
 .last{
   margin-top: 200px;
 }
+*/
