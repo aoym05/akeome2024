@@ -8,17 +8,11 @@ body {
  margin-right: auto;
 }
 
-img [src="nenga.png"] {
-width: 100%;
-height: auto;
-margin-top: 50px;
-｝
-
-img [src="comment.png"] {
-width: 100%;
-height: auto;
-margin-bottom: 50px;
-｝
+img {
+ width: 100%;
+ height: auto;
+ margin-top: 50px;
+}
 
 /*
 body {
